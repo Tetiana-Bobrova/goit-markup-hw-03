@@ -127,6 +127,7 @@ li {
   text-align: center;
   background-color: var(--accent-color);
   color: var(--second-color);
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
@@ -175,8 +176,8 @@ li {
   line-height: 1.71;
 }
 /*================= Чем мы занимаемся =================*/
-.works {
-  margin-bottom: 94px;
+.works .container{
+  padding-bottom: 94px;
 }
 .works-list {
   display: flex;
@@ -194,7 +195,6 @@ li {
   line-height: 1.17;
   text-align: center;
 }
-
 /*======================== Команда ===============*/
 .team {
   padding-top: 94px;
@@ -202,14 +202,13 @@ li {
   background-color: #F5F4FA;
 }
 .team-list {
-  display: flex;
-  margin-top: 50px;
-  margin-bottom: 94;
+  display: inline-flex;
 }
 .team-member:not(:last-child) {
   margin-right: 30px;
   }
   .team-member{
+
     background-color: var(--second-color);
     border: 1px solid var(--button-background);
     border-radius: 0px 0px 4px 4px;
@@ -267,8 +266,8 @@ li {
   border-bottom: 1px solid #ececec;
 }
 .portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .Portfolio-filter {
   display: flex;
